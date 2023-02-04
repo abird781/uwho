@@ -1,0 +1,269 @@
+body {
+    background-color: yellow;
+}
+.green {
+    background-color: #ebebeb;
+    padding-left: 85px;
+}
+
+.whole {
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.year {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 900px;
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.figure {
+    padding-left: 310px;
+    background-color: #ebebeb;
+}
+
+.btn {
+    width: 350px;
+
+}
+.icon {
+    width: 19px;
+}
+.stat {
+    background-color: #ebebeb;
+}
+.lotan {
+    position: absolute;
+    left: 30px;
+    width: 20px;
+    padding-top: 12px;
+}
+.gbtn {
+    margin-left: 330px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.gfbtn {
+    margin-left: 330px;
+    margin-top: 10px;
+    background-color: #2f3337;
+    color: white;
+}
+
+.gf {
+    background-color: #ebebeb;
+}
+.fb {
+    margin-left: 330px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #385499;
+}
+.fbb {
+    background-color: #ebebeb;
+}
+
+
+/* form */
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    font-family: sans-serif;
+    width: 350px;
+    margin-left: 330px;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom:3em;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.loverar {
+    background-color: #ebebeb;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .btn-text {
+    margin: 0;
+  }
+
+  .email-login {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-login label {
+    color: rgb(170 166 166);
+  }
+
+  input[type="text"],
+  input[type="password"] {
+  padding: 10px 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.cta-btn {
+    background-color: rgb(69, 69, 185);
+    color: white;
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .forget-pass {
+    text-align: center;
+    display: block;
+  }
+  .love {
+    background-color: #ebebeb;
+  }
+
+  .vid {
+    margin-bottom: 15px;
+  }
+  .sales {
+    width: 410px;
+    padding-top: 35px;
+    position: relative;
+    right: 60px;
+  }
+
+  .arrange {
+    position: relative;
+    right: 55px;
+  }
+
+  .check {
+    width: 90px;
+  }
+  .join {
+    width: 450px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  .student {
+    position: relative;
+    margin-left: 100px;
+    bottom: 25px;
+  }
+
+  .over {
+    width: 380px;
+    position: relative;
+    right: 60px;
+  }
+  .line {
+    border: 4px blue solid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+@media screen and (max-width: 900px) {
+    .whole {
+        padding: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 10px;
+        overflow-x: hidden;
+    }
+
+    .figure {
+        padding-left: 0px;
+        padding-bottom: 10px;
+        overflow-x: hidden;
+
+    }
+    .year {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .green {
+        padding-left: 0px;
+        overflow-x: hidden;
+
+    }
+    .btn {
+        margin-left: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .card {
+        margin-left: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .sales {
+        width: 100%;
+        position: relative;
+        right: 0px;
+        overflow-x: hidden;
+        
+    }
+    .card {
+      margin-bottom: 5px;
+      overflow-x: hidden;
+    }
+    .arrange {
+      position: relative;
+      right: 0px;
+      overflow-x: hidden;
+    }
+    .check {
+      width: 90%;
+      margin-left: 30px;
+      overflow-x: hidden;
+      
+    }
+
+    .join {
+      margin-left: 70px;
+      margin-bottom: 25px;
+    }
+    .over {
+      text-align: center;
+      position: relative;
+      right: 0px;
+      width: 440px;
+      overflow-y: hidden;
+      
+    }
+    .student {
+      margin-left: 30px;
+      overflow-x: hidden;
+    }
+    body {
+      overflow-x: hidden;
+    }
+}
